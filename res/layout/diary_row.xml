@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:background="@android:color/black"
+>
+
+    <TextView
+        android:id="@+id/tv_array_datetime"
+        android:background="@android:color/white"
+        android:layout_width="117dp"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="1dp"
+        android:paddingLeft="1dp"
+        android:text="@string/sample_datetime" />
+
+    <TextView
+        android:id="@+id/tv_array_activity"
+        android:background="@android:color/white"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:paddingLeft="1dp"
+        android:text="@string/sample_activity" />
+
+    <TextView
+        android:id="@+id/tv_array_duration"
+        android:background="@android:color/white"
+        android:layout_width="40dp"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="1dp"
+        android:paddingLeft="1dp"
+        android:text="@string/sample_60m" />
+
+    <TextView
+        android:id="@+id/tv_array_completed"
+        android:background="@android:color/white"
+        android:layout_width="42dp"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="1dp"
+        android:paddingLeft="1dp"
+        android:gravity="center"
+        android:text="@string/sample_completed" />
+     
+</LinearLayout>

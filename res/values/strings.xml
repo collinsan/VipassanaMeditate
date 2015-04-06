@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vipassana Meditate</string>
+    <string name="title_section1">Timer</string>
+    <string name="title_section2">Diary</string>
+    <string name="title_section3">Paramis</string>
+    <string name="title_section4">Misc</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="time_interval">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+        <item>150</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        </string-array>
+        <string name="lbl_start">Start</string>
+        <string name="lbl_3hr">3:00:00</string>
+        <string name="lbl_1hr">1:00:00</string>
+        <string name="lblPickNumber">Select how many min:</string>
+        <string name="lbl_activity">Activity</string>
+        <string name="lbl_datetime">Date/Time</string>
+        <string name="lbl_dur">DUR</string>
+        <string name="lbl_com">COM</string>
+        <string name="lbl_completed">Completed</string>
+        <string name="lbl_duration">Duration</string>
+        <string name="sample_datetime">140101 23:12</string>
+        <string name="sample_activity">Activity 1</string>
+        <string name="sample_60m">60m</string>
+        <string name="sample_completed">Y</string>
+        <string name="lblSound">Sound</string>
+        <string name="lbl_sound_on">Sound ON</string>
+        <string name="lbl_sound_is_on">Sound is turned ON</string>
+        <string name="lbl_sound_is_off">Sound is turned OFF</string>
+        <string name="lbl_display_settings">Display Settings</string>
+        <string name="lbl_wave_on">Wave background ON</string>
+        <string name="lbl_wave_is_on">Wave background is ON</string>
+        <string name="lbl_wave_is_off">Wave background is OFF</string>
+        <string name="lbl_chanting_on">Chanting ON</string>
+        <string name="lbl_chanting_is_on">Chanting is ON</string>
+        <string name="lbl_chanting_is_off">Chanting is OFF</string>
+        <string name="lbl_about">About</string>
+        <string name="lbl_about_meritsbook">About Vipassana Meditate</string>
+        <string name="lbl_version_">0.1</string>
+
+	     <string name="html_about_content">
+		 <![CDATA[
+		 <p>
+		 I took the 10 days Vipassana course at St John\'s island.
+		 This app tries to create the same setting - wave crashing on the beach in the background, Mr. Goenka 
+		 speaking before and at the end of an "adhitthana" session. I hope others find it useful.
+		 </p>
+		 <p>
+		 There is also a Diary page (flip left) that tracks all the meditation sessions done.
+		 </p>
+		 <p>
+		 Disclaimer: Tested only on my HTC ONE. Use at your own risk! <a href="mailto:collinsan@gmail.com">Feedbacks</a> welcome!
+		 </>
+		 <p>
+		 Check out the <a href="http://www.sg.dhamma.org/">Vipassana SG website</a> if you are interested to try it out for yourself.
+		 </p>
+		 <p>
+		 All merits and thanks goes to Mr. S. N. Goenka and all the volunteer Assistant Teachers in the world!
+		 Any defects and mistakes are all mine. :)
+		 </p>
+		 <p>
+		 Bhavatu Sabbe Mangalam
+		 ~ Collin Ng (Vipassana 10 days course - 3 Sep 2014)
+		 </p>
+		 <p><b>Return to the previous screen by touching the Back button.</b>
+		 </p>
+		 ]]>
+		 </string>
+
+	     <string name="lbl_version">Version:</string>
+
+	     <string name="lbl_pref_session_show_incomplete">Show incomplete sessions</string>
+
+	     <string name="lbl_pref_session_show_incomplete_on">Incomplete sessions will be shown</string>
+
+	     <string name="lbl_pref_session_show_incomplete_off">Incomplete sessions will NOT be shown</string>
+
+	     <string name="lbl_completed_time">"Completed Time: "</string>
+
+	     <string name="lbl_sessions">"Sessions: "</string>
+
+	     <string name="lbl_sample_digit_6">100000</string>
+		 
+</resources>

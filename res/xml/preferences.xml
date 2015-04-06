@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:seekbarns="http://sg.dhamma.org"
+>
+
+    <PreferenceCategory 
+        android:title="@string/lblSound">
+
+        <CheckBoxPreference 
+            android:key="pref_sound_on"
+            android:title="@string/lbl_sound_on"
+            android:summaryOn="@string/lbl_sound_is_on"
+            android:summaryOff="@string/lbl_sound_is_off"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference 
+            android:key="pref_wave_on"
+            android:title="@string/lbl_wave_on"
+            android:summaryOn="@string/lbl_wave_is_on"
+            android:summaryOff="@string/lbl_wave_is_off"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference 
+            android:key="pref_chanting_on"
+            android:title="@string/lbl_chanting_on"
+            android:summaryOn="@string/lbl_chanting_is_on"
+            android:summaryOff="@string/lbl_chanting_is_off"
+            android:defaultValue="true"/>
+        
+        <org.dhamma.sg.SeekBarPreference
+            android:key="pref_wave_vol"
+            android:title="Wave Volume"
+            android:defaultValue="80"
+            android:max="100"
+            seekbarns:min="1"
+            seekbarns:unitsLeft=""
+            seekbarns:unitsRight="%"
+            />
+        <org.dhamma.sg.SeekBarPreference
+            android:key="pref_chanting_vol"
+            android:title="Chanting Volume"
+            android:defaultValue="100"
+            android:max="100"
+            seekbarns:min="1"
+            seekbarns:unitsLeft=""
+            seekbarns:unitsRight="%"
+            />
+        </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="@string/lbl_display_settings">
+        
+        <CheckBoxPreference 
+            android:key="pref_session_show_incomplete"
+            android:title="@string/lbl_pref_session_show_incomplete"
+            android:summaryOn="@string/lbl_pref_session_show_incomplete_on"
+            android:summaryOff="@string/lbl_pref_session_show_incomplete_off"
+            android:defaultValue="true"/>
+        
+        
+        
+    </PreferenceCategory>
+    
+</PreferenceScreen>

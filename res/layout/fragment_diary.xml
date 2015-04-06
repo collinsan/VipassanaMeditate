@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.dhamma.sg.MainActivity$PlaceholderFragment" >
+
+    
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/title_section2" 
+        style="@style/PageTitle"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/layoutScore"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/section_label"
+        android:layout_below="@+id/section_label"
+        android:orientation="horizontal" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_completed_time" />
+
+        <TextView
+            android:id="@+id/tv_completed_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_sample_digit_6"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="@string/lbl_sessions" />
+
+        <TextView
+            android:id="@+id/tv_completed_sessions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_sample_digit_6"
+            android:textStyle="bold" />
+        
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutListHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutScore"
+        android:background="@android:color/black"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_datetime"
+		    android:background="@android:color/darker_gray"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+	        android:paddingLeft="1dp"
+            android:text="@string/lbl_datetime" />
+
+        <TextView
+            android:id="@+id/tv_duration"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_activity"
+            android:layout_marginLeft="1dp"
+            android:layout_toRightOf="@+id/tv_activity"
+            android:background="@android:color/darker_gray"
+            android:hint="@string/lbl_duration"
+            android:paddingLeft="1dp"
+            android:text="@string/lbl_dur" />
+
+        <TextView
+            android:id="@+id/tv_completed"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_duration"
+            android:layout_marginLeft="1dp"
+            android:layout_toRightOf="@+id/tv_duration"
+            android:background="@android:color/darker_gray"
+            android:hint="@string/lbl_completed"
+            android:paddingLeft="1dp"
+            android:text="@string/lbl_com" />
+        
+        <TextView
+            android:id="@+id/tv_activity"
+		    android:background="@android:color/darker_gray"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+	        android:paddingLeft="1dp"
+            android:layout_toRightOf="@+id/tv_datetime"
+            android:text="@string/lbl_activity" />
+        
+    </RelativeLayout>
+    
+    <ListView
+        android:id="@+id/listEntries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/section_label"
+        android:layout_below="@+id/layoutListHeader" >
+    </ListView>
+</RelativeLayout>
